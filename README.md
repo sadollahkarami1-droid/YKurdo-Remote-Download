@@ -1,50 +1,54 @@
-# YKurdo Remote — دانلود | Download
+# YKurdo Remote — دانلود / Download
 
-**فارسی** | [English](#english)
+دو برنامه مستقل برای Windows x64. **آخرین نسخه: 1.2.0**
 
-برنامهٔ ویندوز برای اتصال امن Claude و ChatGPT به رایانهٔ خودتان، با کنترل کامل شما بر هر اجازه.
+| محصول | دانلود نصب‌کننده |
+|---|---|
+| **Personal — شخصی غیرتجاری** | [دانلود Personal 1.2.0](https://github.com/sadollahkarami1-droid/YKurdo-Remote-Download/releases/download/v1.2.0-91b33d881736/YKurdo-Remote-Personal-Setup-x64-1.2.0-91b33d881736.exe) |
+| **Commercial — تجاری** | [دانلود Commercial 1.2.0](https://github.com/sadollahkarami1-droid/YKurdo-Remote-Download/releases/download/v1.2.0-91b33d881736/YKurdo-Remote-Commercial-Setup-x64-1.2.0-91b33d881736.exe) |
 
-## این برنامه چه می‌کند
-YKurdo Remote یک رابط MCP روی ویندوز است. بعد از ورود و فشردن «اتصال»، دستیار هوش مصنوعی شما می‌تواند فقط در پوشه‌هایی که خودتان تأیید کرده‌اید کار کند:
-- فهرست‌کردن، خواندن و جستجوی فایل‌ها
-- نوشتن و ویرایش فایل‌های متنی (قبل از تغییر، نسخهٔ پشتیبان ساخته می‌شود)
-- دستورهای فقط‌خواندنی git
-- اجرای دستور ترمینال، فقط در «پنجرهٔ اجرا»ی زمان‌دار که خودتان در برنامه باز می‌کنید
+[توضیحات نسخه، SHA-256 و همه دانلودها](https://github.com/sadollahkarami1-droid/YKurdo-Remote-Download/releases/latest)
 
-## کنترل با شماست
-- هر ابزار کلید جدا دارد و پیش‌فرض خاموش است؛ خودتان روشن می‌کنید.
-- هر درخواست نوشتن یا ویرایش، پنجرهٔ تأیید روی صفحهٔ خودتان نشان می‌دهد. تأیید نکنید یا ۶۰ ثانیه بگذرد، رد می‌شود.
-- برنامه فقط به پوشه‌هایی دسترسی دارد که خودتان اضافه کرده‌اید.
+## تغییرات 1.2.0
 
-## قیمت
-- **دورهٔ رایگان:** ۵٬۰۰۰ تماس ابزار در ۳۰ روز، فقط یک بار برای هر دستگاه.
-- **ماهانه:** ۱۹٫۹۹ یورو در ماه؛ **سالانه:** ۲۱۰ یورو در سال. پرداخت امن از طریق Stripe و لغو در هر زمان از پورتال.
+- هر **۳۱ ابزار نسخه شخصی** در نسخه تجاری پشتیبانی می‌شود: فایل و پوشه، ویرایش، PDF، جستجو، ترمینال و نشست پردازش، تنظیمات مجاز، گزارش‌ها و مدیریت دستگاه.
+- به نسخه **شخصی غیرتجاری** بخش افزودن پوشه یا کل درایو، روشن و خاموش‌کردن دسترسی هر مسیر و پنجره اجرای ۱۵ دقیقه‌ای اضافه شده است.
+- ورود Gmail به حساب موجود در نسخه تجاری اصلاح شده و نقش Owner با عنوان دسترسی دائمی مالک نمایش داده می‌شود.
+- دو نصب‌کننده، محل نصب و تنظیمات مستقل دارند؛ نصب هرکدام، محصول دیگر را تبدیل نمی‌کند.
 
-## نصب
-1. آخرین نسخه را از بخش **Releases** همین صفحه دانلود کنید (`YKurdo-Remote-Commercial-Setup-x64-….exe`).
-2. اجرا کنید. بعد از نصب، راهنمای کامل ۷ زبانه باز می‌شود (در منوی Start هم هست).
-3. وارد حساب شوید، پوشه‌های مجاز را اضافه کنید و «اتصال» را بزنید.
-4. در Claude یا ChatGPT یک کانکتور MCP با این آدرس اضافه کنید: `https://ykurdo-api.sdigital.app/mcp`
+## کنترل دسترسی
 
-### هشدار SmartScreen
-فعلاً نصب‌کننده **امضای دیجیتال ندارد** (مرحلهٔ اول انتشار). ویندوز ممکن است بنویسد «Windows protected your PC». در این صورت **More info** و بعد **Run anyway** را بزنید. برای اطمینان، SHA-256 فایل دانلودشده را با مقدار فایل `.sha256` کنار همان نسخه مقایسه کنید:
+هر ابزار مجوز مستقل دارد. اجرای ابزار روی دستگاه به تأیید محلی مالک وابسته است و ابزارهای پردازش به پنجره اجرای باز نیاز دارند. مسیرها را در خود برنامه انتخاب و مدیریت کنید. درخواست نامعتبر، دستگاه آفلاین یا مجوز لغوشده اجازه اجرا نمی‌گیرد.
+
+در Commercial، مالک اصلی با نقش سروری Owner دسترسی دائمی دارد. مشتریان به اشتراک معتبر یا trial فعال نیاز دارند.
+
+## استفاده از نسخه تجاری
+
+1. نصب‌کننده **Commercial** را دانلود و برنامه را باز کنید.
+2. با Google یا حساب ایمیل خود وارد شوید و اتصال دستگاه را مطابق راهنما تنظیم کنید.
+3. پوشه‌ها و مجوزهای موردنیاز را در برنامه انتخاب و دستگاه را متصل کنید.
+4. در کلاینت پشتیبانی‌شده، کانکتور MCP را با `https://ykurdo-api.sdigital.app/mcp` اضافه کنید و ورود را تکمیل کنید. پس از ارتقا، فهرست ابزارهای کانکتور را تازه کنید.
+
+برای مجموعه کامل ۳۱ ابزار، برنامه Commercial را به 1.2.0 ارتقا دهید.
+
+## اشتراک Commercial
+
+دوره آزمایشی: ۵۰۰۰ فراخوانی ابزار در ۳۰ روز، یک بار برای هر دستگاه. ماهانه: ۱۹٫۹۹ یورو؛ سالانه: ۲۱۰ یورو. قیمت نهایی و مالیات در صفحه رسمی Stripe مشخص می‌شود. مدیریت یا لغو اشتراک از پورتال پرداخت انجام می‌شود.
+
+## بررسی فایل دانلود
+
+نصب‌کننده‌ها فعلاً امضای Authenticode ندارند. SHA-256 هر فایل در همان انتشار موجود است:
 
 ```powershell
-Get-FileHash .\YKurdo-Remote-Commercial-Setup-x64-*.exe -Algorithm SHA256
+Get-FileHash .\YKurdo-Remote-*-Setup-x64-1.2.0-*.exe -Algorithm SHA256
 ```
 
 ## English
-Windows app that securely connects Claude and ChatGPT to your own PC, with you controlling every permission.
 
-**What it does.** After you sign in and press Connect, your AI assistant can work only inside folders you approved: list, read and search files; write and edit text files (a backup is made first); read-only git commands; and run terminal commands only during a time-limited execution window that you open yourself in the app.
+Two independent Windows x64 products: **Personal (noncommercial)** and **Commercial**. Version 1.2.0 brings all 31 Personal tools to the Commercial endpoint and adds approved-folder/whole-drive switches and a 15-minute execution window to Personal.
 
-**You stay in control.** Every tool has its own switch (off by default). Each write or edit request shows a confirmation dialog on your screen; no answer within 60 seconds means rejected.
+Commercial supports verified Gmail sign-in to existing accounts. Owner access is permanent; customers retain subscription or metered-trial requirements. Device tools require local consent and permissions. Process tools also need an execution window. Install the matching product, connect the device and refresh the MCP connector's tool list.
 
-**Pricing.** Free: 5,000 tool calls over 30 days, once per device. Paid: €19.99/month or €210/year via Stripe; cancel any time from the billing portal.
+Commercial MCP endpoint: `https://ykurdo-api.sdigital.app/mcp`. Trial: 5,000 tool calls over 30 days, once per device. Plans: EUR 19.99/month or EUR 210/year; final price and tax appear in Stripe Checkout.
 
-**Install.** Download the latest installer from **Releases**, run it (a 7-language user guide opens at the end), sign in, add allowed folders, press Connect, then add an MCP connector in Claude or ChatGPT with `https://ykurdo-api.sdigital.app/mcp`.
-
-**SmartScreen notice.** The installer is currently **not code-signed**. If Windows warns, choose **More info → Run anyway**, and compare the file's SHA-256 with the `.sha256` file published with the release.
-
----
-© YKurdo Remote. All rights reserved. This repository hosts release binaries only and contains no source code.
+Installers preserve separate product identities and settings. They are currently not Authenticode-signed; compare their SHA-256 against the release checksums. This repository distributes binaries and documentation; the development repository remains private.

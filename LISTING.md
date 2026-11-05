@@ -1,26 +1,25 @@
-# Directory listing text (draft for the developer portal)
+# YKurdo Remote — listing information, version 1.2.0
 
-**Name (≤100):** YKurdo Remote
+**Name:** YKurdo Remote
 
-**One-liner (≤200):** Let Claude work inside folders on your Windows PC — with a confirmation dialog for every action and a switch for every tool.
+**One-liner:** Connect your MCP assistant to your Windows device with the 31 Personal tools, approved folders and local owner consent.
 
-**Description (≤2000):**
-YKurdo Remote connects Claude to your own Windows PC through a small desktop app. You choose which folders the assistant may use and switch tools on or off one by one (all off by default).
+**Description:** YKurdo Remote has separate Personal (noncommercial) and Commercial Windows applications. Commercial 1.2.0 supports all 31 canonical Personal tool names, using the same engine for files, PDF, search and process sessions. Its account/device-management tools use the authenticated service.
 
-What Claude can do once you allow it: list, read and search files in approved folders; create and edit text files (an automatic backup is made first); run read-only git commands; and, only during a time-limited execution window that you open yourself, run PowerShell commands.
+Users choose approved folders and tool permissions on their device. Device operations require local owner approval; process tools also require an execution window opened in the application. The model cannot grant itself a folder or change protected security configuration. Account, device and lease checks are enforced on the server, including permission revocation before execution and result delivery.
 
-You stay in control: every request appears in a confirmation dialog on your screen, showing the exact action and path. If you do not approve within 60 seconds, it is rejected. Nothing runs when the app is closed.
+The Personal application additionally has folder/whole-drive switches and a 15-minute execution-window panel. Product settings and installer identities remain separate. Commercial customers require a valid paid subscription or metered trial. Permanent Owner access is assigned by the service operator, separately from payment status.
 
-Requirements: a Windows PC with the YKurdo Remote app installed (free download), and a YKurdo account. Free plan: 5,000 tool calls over 30 days, once per device. Paid plan: €19.99/month or €210/year via Stripe.
+**Requirements:** Windows x64, the matching updated application, a configured and connected device, and an MCP client that supports the connector. Commercial also requires a verified YKurdo account and active entitlement.
 
-**Categories:** Developer tools; Productivity
+**Commercial endpoint:** https://ykurdo-api.sdigital.app/mcp
 
-**Documentation URL:** (the public repository README/DOCS page)
-**Privacy policy URL:** (PRIVACY.md in the public repository, or the website privacy page)
-**Support contact:** sadollahkarami1@gmail.com
+**Documentation:** [DOCS.md](DOCS.md)
 
-**Use cases:** read and summarize local documents; refactor or generate code files in a project folder; inspect a git repository; guided PC maintenance (with exec window).
-**Before connecting users need:** the Windows app installed and an account.
-**Data access:** reads and writes (user-confirmed).
+**Privacy policy:** [PRIVACY.md](PRIVACY.md)
 
-**Test & launch note for reviewers:** create a reviewer account, install the app, add one test folder, press Connect, and call each tool; the app shows a confirmation dialog for each request.
+**Downloads:** [Latest release](https://github.com/sadollahkarami1-droid/YKurdo-Remote-Download/releases/latest)
+
+**Support:** sadollahkarami1@gmail.com
+
+**Reviewer guidance:** install Commercial 1.2.0, sign in, configure the device, choose a disposable test folder, connect and refresh the MCP tools list. Existing accounts with explicitly enabled legacy aliases may see additional compatibility names alongside the 31 canonical tools. Do not use personal/customer documents during verification.
