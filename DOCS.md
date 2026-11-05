@@ -1,11 +1,11 @@
-# YKurdo Remote 1.2.0 — راهنمای دو نسخه / Product guide
+# YKurdo Remote — Commercial 1.2.1 / Personal 1.2.0 — راهنمای دو نسخه / Product guide
 
 ## انتخاب نسخه
 
 - **Personal، شخصی غیرتجاری:** محصول مستقل شخصی، با تنظیمات خودش و بدون ورود به حساب تجاری.
 - **Commercial، تجاری:** ورود به حساب، دستگاه ثبت‌شده و مجوز سرور لازم دارد. Owner دائمی است؛ مشتریان از اشتراک یا trial معتبر استفاده می‌کنند.
 
-نصب‌کننده دو محصول جداست؛ ارتقای هرکدام، حساب یا تنظیمات محصول دیگر را منتقل نمی‌کند. برای امکانات جدید تجاری، Commercial 1.2.0 لازم است.
+نصب‌کننده دو محصول جداست؛ ارتقای هرکدام، حساب یا تنظیمات محصول دیگر را منتقل نمی‌کند. برای امکانات جدید تجاری، Commercial 1.2.1 لازم است.
 
 ## فهرست مشترک ۳۱ ابزار
 
@@ -25,7 +25,7 @@
 
 در نسخه شخصی، از «افزونه‌های AI» بخش «افزونه‌ها — دسترسی ریموت» را باز کنید. پوشه یا کل درایو را اضافه کنید و کلید دسترسی هر مسیر را روشن یا خاموش کنید. افزودن کل درایو تأیید جداگانه می‌خواهد. برای ابزارهای پردازش، پنجره اجرای ۱۵ دقیقه‌ای را باز کنید؛ دکمه بستن، آن را فوراً می‌بندد. پنجره اجرا پس از خروج از برنامه فعال باقی نمی‌ماند.
 
-در نسخه تجاری نیز پوشه‌ها و ابزارها را از داخل برنامه مدیریت کنید. اجرای درخواست ابزار روی دستگاه، مجوز سرور و تأیید محلی مالک را لازم دارد. ابزارهای پردازش به پنجره اجرای باز در خود برنامه نیز نیاز دارند. مدل نمی‌تواند پوشه‌های مجاز یا فهرست دستورات مسدود را با `set_config_value` تغییر دهد.
+در نسخه تجاری نیز پوشه‌ها و ابزارها را از داخل برنامه مدیریت کنید. حالت دسترسی روی صفحه اصلی تجاری مشخص می‌شود: فقط‌خواندنی، با تأیید یا تمام‌خودکار. حالت پیش‌فرض فقط‌خواندنی است؛ Ask برای هر ابزار تأیید می‌خواهد و Full Auto پس از انتخاب و تأیید محلی، پرسش‌های جداگانه ابزارهای مجاز را حذف می‌کند. تغییر حالت نیازمند قطع اتصال است و بازشدن دوباره برنامه یا خروج از حساب حالت فقط‌خواندنی را برمی‌گرداند. قطع اتصال Remote همچنان تأیید جداگانه می‌خواهد. مجوز سرور و مجوزهای محلی در هر سه حالت الزامی‌اند. ابزارهای پردازش به پنجره اجرای باز در خود برنامه نیز نیاز دارند. مدل نمی‌تواند پوشه‌های مجاز یا فهرست دستورات مسدود را با `set_config_value` تغییر دهد.
 
 ## اتصال Commercial
 
@@ -42,9 +42,9 @@
 
 ## English
 
-Personal and Commercial remain separate products. Commercial 1.2.0 supports the same 31 canonical tools listed above, with the same generated argument schemas and the actual shared Personal engine for device operations. Legacy tool names explicitly enabled by an existing account may remain visible for compatibility.
+Personal and Commercial remain separate products. Commercial 1.2.1 supports the same 31 canonical tools listed above, with the same generated argument schemas and the actual shared Personal engine for device operations. Legacy tool names explicitly enabled by an existing account may remain visible for compatibility.
 
-Install the matching updated client, configure and connect the device, choose approved folders, and refresh your MCP connector tool list. Commercial endpoint: `https://ykurdo-api.sdigital.app/mcp`. Device operations require server entitlement, device authorization and local owner approval. Process tools also require a locally opened execution window. Long-running requests return a `call_id` for `get_tool_result`; specify `device_id` when device selection is ambiguous.
+Install the matching updated client, configure and connect the device, choose approved folders, and refresh your MCP connector tool list. Commercial endpoint: `https://ykurdo-api.sdigital.app/mcp`. Home provides Read Only (default), Ask, and Full Auto. Ask requires per-call consent; locally selected Full Auto skips per-call prompts for permitted tools. Restart/logout resets Read Only, mode changes require disconnecting, and shutdown still requires separate consent. Server entitlement, device authorization, tool permissions and approved roots apply in all modes. Process tools also require a locally opened execution window. Long-running requests return a `call_id` for `get_tool_result`; specify `device_id` when device selection is ambiguous.
 
 In Personal, the extensions panel includes folder/whole-drive switches and a 15-minute execution window. Disabling a folder takes effect in the shared engine without restart. Invalid or empty policy blocks access. Installers are currently not Authenticode-signed; verify downloads against their release SHA-256 files.
 
