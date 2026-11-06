@@ -1,84 +1,50 @@
 # YKurdo Remote — دانلود / Download
 
-نسخه‌های پایدار برای Windows x64؛ نسخه‌های آزمایشی Linux نیز در ادامه آمده‌اند. **نسخه تجاری: 1.2.4 — نسخه شخصی: 1.2.0**
+<img src="assets/ykurdo-remote-logo.png" alt="YKurdo Remote" width="240">
 
-| محصول | دانلود نصب‌کننده |
+**آخرین نسخهٔ پایدار تجاری ویندوز: 1.2.5 — نسخهٔ شخصی ویندوز: 1.2.0**
+
+| محصول | دانلود نصب‌کننده Windows x64 |
 |---|---|
+| **Commercial — تجاری** | [دانلود Commercial 1.2.5](https://github.com/sadollahkarami1-droid/YKurdo-Remote-Download/releases/download/v1.2.5-be43db3aa0ae/YKurdo-Remote-Commercial-Setup-x64-1.2.5-be43db3aa0ae.exe) |
 | **Personal — شخصی غیرتجاری** | [دانلود Personal 1.2.0](https://github.com/sadollahkarami1-droid/YKurdo-Remote-Download/releases/download/v1.2.0-91b33d881736/YKurdo-Remote-Personal-Setup-x64-1.2.0-91b33d881736.exe) |
-| **Commercial — تجاری** | [دانلود Commercial 1.2.4](https://github.com/sadollahkarami1-droid/YKurdo-Remote-Download/releases/download/v1.2.4-bbdfbf75231f/YKurdo-Remote-Commercial-Setup-x64-1.2.4-bbdfbf75231f.exe) |
 
-[توضیحات نسخه، SHA-256 و همه دانلودها](https://github.com/sadollahkarami1-droid/YKurdo-Remote-Download/releases/latest)
+[توضیحات آخرین نسخه و SHA-256](https://github.com/sadollahkarami1-droid/YKurdo-Remote-Download/releases/latest)
 
-## Linux — نسخه آزمایشی 1.3.0-beta.1
+## Commercial 1.2.5
 
-دو بسته مستقل **شخصی غیرتجاری** و **تجاری** برای Ubuntu 24.04 x64 آماده‌اند. Node و ripgrep داخل بسته قرار دارند؛ رابط برنامه پنل محلی در مرورگر همان دستگاه است.
+- انتخاب زبان پیش از نصب: فارسی، انگلیسی، عربی، آلمانی، ایتالیایی، فرانسوی و اسپانیایی؛ ورود و خوشامد به زبان انتخاب‌شده.
+- تم شب در نصب تازه؛ حفظ زبان و ظاهر قبلی هنگام ارتقای بی‌صدا.
+- راست‌چین فارسی/عربی و چپ‌چین لاتین، جای کلیدها متناسب با زبان، نوشته‌های درشت‌تر و پررنگ‌تر.
+- پنجرهٔ بزرگ‌تر سرویس‌های هوش مصنوعی، ماه پرنورتر، نورافشانی اتصال و هشدار قطع اتصال؛ لوگوی جدید برنامه.
+- حفظ اصلاح قطع اتصال در پاسخ‌های بزرگ از نسخهٔ 1.2.4.
 
-| محصول Linux | نصب Ubuntu / Debian |
+هر ۳۱ ابزار اصلی در نسخه تجاری پشتیبانی می‌شود. روشن‌کردن Remote ابزارها و Full Auto را آماده و مجوز اجرای فرمان را خودکار تمدید می‌کند؛ خاموش‌کردن آن موتور محلی و درخواست‌های جاری را متوقف می‌کند. پس از بازشدن دوبارهٔ برنامه، اتصال و دسترسی باید با کلید اصلی توسط کاربر فعال شود. می‌توان مجوز ابزارها و پوشه‌های مجاز را در برنامه مدیریت کرد.
+
+حساب تأییدشده و کنترل‌های سرور برقرارند. مالک اصلی با نقش سروری Owner دسترسی دائمی دارد؛ مشتریان به اشتراک معتبر یا trial فعال نیاز دارند. نصب‌کننده‌ها و تنظیمات Personal و Commercial مستقل‌اند.
+
+## نصب و اتصال
+
+1. محصول مناسب را دانلود و نصب کنید؛ در نصب تعاملی زبان را پیش از نصب انتخاب کنید.
+2. در نسخه تجاری وارد حساب شوید، دستگاه و پوشه‌های مجاز را تنظیم کنید و Remote را روشن کنید.
+3. کانکتور MCP را در کلاینت پشتیبانی‌شده با `https://ykurdo-api.sdigital.app/mcp` متصل و احراز هویت را تکمیل کنید. پس از ارتقا فهرست ابزارها را تازه کنید.
+
+## Linux — آزمایشی 1.3.0-beta.1
+
+دو بسته مستقل برای Ubuntu 24.04 x64؛ رابط محلی در مرورگر و Node/ripgrep همراه بسته.
+
+| محصول Linux | بسته Ubuntu / Debian |
 |---|---|
-| Personal — شخصی غیرتجاری | [دانلود بسته شخصی `.deb`](https://github.com/sadollahkarami1-droid/YKurdo-Remote-Download/releases/download/linux-v1.3.0-beta.1-1f144b0fe2aa/ykurdo-remote-personal_1.3.0.beta.1-1f144b0fe2aa_amd64.deb) |
-| Commercial — تجاری | [دانلود بسته تجاری `.deb`](https://github.com/sadollahkarami1-droid/YKurdo-Remote-Download/releases/download/linux-v1.3.0-beta.1-1f144b0fe2aa/ykurdo-remote-commercial_1.3.0.beta.1-1f144b0fe2aa_amd64.deb) |
+| Personal | [دانلود شخصی .deb](https://github.com/sadollahkarami1-droid/YKurdo-Remote-Download/releases/download/linux-v1.3.0-beta.1-1f144b0fe2aa/ykurdo-remote-personal_1.3.0.beta.1-1f144b0fe2aa_amd64.deb) |
+| Commercial | [دانلود تجاری .deb](https://github.com/sadollahkarami1-droid/YKurdo-Remote-Download/releases/download/linux-v1.3.0-beta.1-1f144b0fe2aa/ykurdo-remote-commercial_1.3.0.beta.1-1f144b0fe2aa_amd64.deb) |
 
-[همه فایل‌های Linux، آرشیو نصب بدون دسترسی مدیر و SHA-256](https://github.com/sadollahkarami1-droid/YKurdo-Remote-Download/releases/tag/linux-v1.3.0-beta.1-1f144b0fe2aa) · [راهنمای نصب و محدودیت‌ها](LINUX-INSTALL-FA.md)
+[همهٔ فایل‌های Linux و SHA-256](https://github.com/sadollahkarami1-droid/YKurdo-Remote-Download/releases/tag/linux-v1.3.0-beta.1-1f144b0fe2aa) · [راهنمای نصب و محدودیت‌ها](LINUX-INSTALL-FA.md)
 
-نسخه تجاری Linux به همان سرویس و ۳۱ ابزار اصلی متصل است و سه حالت دسترسی، پوشه‌های مستقل و بازه اجرای ۱۵ دقیقه‌ای دارد. نسخه شخصی اتصال محلی MCP و تنظیمات مستقل دارد. آزمون‌ها روی Ubuntu در WSL2 انجام شده‌اند؛ ورود Google با حساب واقعی و اجرای طولانی روی دسکتاپ‌های مختلف هنوز تأیید نشده است. PDF از Markdown به Chrome/Chromium نصب‌شده نیاز دارد. **این نسخه آزمایشی است و جایگزین نسخه پایدار ویندوز نشده است.**
+آزمون Linux روی Ubuntu در WSL2 انجام شده است؛ ورود Google واقعی و اجرای طولانی روی دسکتاپ‌های مختلف هنوز تأیید نشده‌اند. ساخت PDF به Chrome/Chromium نیاز دارد. نسخه Linux آزمایشی است؛ انتشار Windows و Linux مستقل است.
 
-macOS فاز بعدی است؛ هنوز نصب‌کننده مک منتشر نشده است.
+## بررسی فایل
 
-## تغییرات Commercial 1.2.4 — Windows
-
-رفع کرش و قطع اتصال هنگام دریافت پاسخ بزرگِ تأیید نتیجه ابزار. ماه تپنده، نورافشانی ده‌ثانیه‌ای، خوشامد هفت‌زبانه و هشدار تصویری/صوتی قطع اتصال اضافه شد. نصب، حساب و تنظیمات قبلی را حفظ می‌کند و موتور Node یکسان را جایگزین نمی‌کند.
-
-## تغییرات Commercial 1.2.3 — Windows
-
-ترجمه‌های شش زبان فعال همگام شدند: هر زبان ۴۱۸ عبارت دارد. متن‌های حالت دسترسی، مجوز اجرا، Owner، ورود Google و اتصال تکمیل شدند. پنجره تأیید درخواست نیز ترجمه می‌شود و تغییر چندباره زبان برای متن‌های پویا اصلاح شده است.
-
-## تغییرات Commercial 1.2.2 — Windows
-
-- دکمه روشن‌کردن Remote هر ۳۱ ابزار و Full Auto را آماده می‌کند؛ مجوز اجرای فرمان خودکار تمدید می‌شود و دکمه جداگانه ۱۵ دقیقه‌ای لازم نیست.
-- خاموش‌کردن Remote موتور محلی و درخواست‌های جاری را متوقف و دستگاه را آفلاین می‌کند.
-- تغییر مجوز ابزارها خودکار ذخیره می‌شود و حالت دسترسی هنگام اتصال هم قابل تغییر است.
-- پوشه‌های مجاز، حساب تأییدشده و الزام اشتراک یا trial مشتریان برقرارند. نصب، تنظیمات و ورود ذخیره‌شده را حفظ می‌کند.
-- شروع خودکار برنامه همچنان حالت پیش‌فرض فقط‌خواندنی را حفظ می‌کند؛ فعال‌سازی کامل با دکمه اصلی Remote انجام می‌شود.
-
-## تغییرات Commercial 1.2.1
-
-روی صفحه اصلی تجاری، بخش «حالت دسترسی هوش مصنوعی» اضافه شده است:
-
-- **فقط‌خواندنی · Read Only:** حالت پیش‌فرض؛ ابزارهای تغییر، اجرا و مدیریت رد می‌شوند.
-- **با تأیید · Ask:** اجرای هر ابزار دستگاه به تأیید جداگانه شما نیاز دارد.
-- **تمام‌خودکار · Full Auto:** پس از انتخاب و تأیید داخل برنامه، ابزارهای مجاز بدون پرسش جداگانه اجرا می‌شوند.
-
-فقط یک حالت فعال است. برای تغییر حالت، اتصال را متوقف کنید. با بازشدن دوباره برنامه یا خروج از حساب، حالت فقط‌خواندنی برمی‌گردد. مجوز ابزارها، پوشه‌ها، بازه اجرای دستور و کنترل‌های سرور در همه حالت‌ها برقرارند؛ قطع اتصال از راه دور همچنان تأیید جداگانه می‌خواهد.
-
-## تغییرات 1.2.0
-
-- هر **۳۱ ابزار نسخه شخصی** در نسخه تجاری پشتیبانی می‌شود: فایل و پوشه، ویرایش، PDF، جستجو، ترمینال و نشست پردازش، تنظیمات مجاز، گزارش‌ها و مدیریت دستگاه.
-- به نسخه **شخصی غیرتجاری** بخش افزودن پوشه یا کل درایو، روشن و خاموش‌کردن دسترسی هر مسیر و پنجره اجرای ۱۵ دقیقه‌ای اضافه شده است.
-- ورود Gmail به حساب موجود در نسخه تجاری اصلاح شده و نقش Owner با عنوان دسترسی دائمی مالک نمایش داده می‌شود.
-- دو نصب‌کننده، محل نصب و تنظیمات مستقل دارند؛ نصب هرکدام، محصول دیگر را تبدیل نمی‌کند.
-
-## کنترل دسترسی
-
-هر ابزار مجوز مستقل دارد. در Commercial ویندوز 1.2.2، زدن دکمه روشن‌کردن Remote هر ۳۱ ابزار و Full Auto را فعال و مجوز زمان‌دار اجرا را خودکار تمدید می‌کند. خاموش‌کردن Remote اجرای جاری و موتور محلی را متوقف می‌کند. مجوزها خودکار ذخیره می‌شوند و همچنان می‌توان ابزارهای خاص را خاموش کرد. پوشه‌های مجاز و احراز هویت برقرار می‌مانند. مسیرها را در خود برنامه انتخاب و مدیریت کنید. درخواست نامعتبر، دستگاه آفلاین یا مجوز لغوشده اجازه اجرا نمی‌گیرد.
-
-در Commercial، مالک اصلی با نقش سروری Owner دسترسی دائمی دارد. مشتریان به اشتراک معتبر یا trial فعال نیاز دارند.
-
-## استفاده از نسخه تجاری
-
-1. نصب‌کننده **Commercial** را دانلود و برنامه را باز کنید.
-2. با Google یا حساب ایمیل خود وارد شوید و اتصال دستگاه را مطابق راهنما تنظیم کنید.
-3. پوشه‌ها و مجوزهای موردنیاز را در برنامه انتخاب و دستگاه را متصل کنید.
-4. در کلاینت پشتیبانی‌شده، کانکتور MCP را با `https://ykurdo-api.sdigital.app/mcp` اضافه کنید و ورود را تکمیل کنید. پس از ارتقا، فهرست ابزارهای کانکتور را تازه کنید.
-
-برای کنترل خودکار اجرا با کلید Remote، برنامه Commercial ویندوز را به 1.2.2 ارتقا دهید.
-
-## اشتراک Commercial
-
-دوره آزمایشی: ۵۰۰۰ فراخوانی ابزار در ۳۰ روز، یک بار برای هر دستگاه. ماهانه: ۱۹٫۹۹ یورو؛ سالانه: ۲۱۰ یورو. قیمت نهایی و مالیات در صفحه رسمی Stripe مشخص می‌شود. مدیریت یا لغو اشتراک از پورتال پرداخت انجام می‌شود.
-
-## بررسی فایل دانلود
-
-نصب‌کننده‌ها فعلاً امضای Authenticode ندارند. SHA-256 هر فایل در همان انتشار موجود است:
+نصب‌کننده‌ها فعلاً امضای Authenticode ندارند. SHA-256 را با فایل checksum همان انتشار مقایسه کنید:
 
 ```powershell
 Get-FileHash .\YKurdo-Remote-*-Setup-x64-*.exe -Algorithm SHA256
@@ -86,10 +52,8 @@ Get-FileHash .\YKurdo-Remote-*-Setup-x64-*.exe -Algorithm SHA256
 
 ## English
 
-Two independent Windows x64 products: **Personal (noncommercial)** and **Commercial**. Version 1.2.0 brings all 31 Personal tools to the Commercial endpoint and adds approved-folder/whole-drive switches and a 15-minute execution window to Personal.
+Latest stable **Windows Commercial 1.2.5**, **Windows Personal 1.2.0**; Linux 1.3.0-beta.1 remains a separate preview. Setup offers seven languages. Welcome follows the app language; fresh installs default to Night. Improved RTL/LTR text and switch placement, larger typography and AI-services panel, brighter moon and new owner-provided logo. The large-response crash fix is retained.
 
-Commercial supports verified Gmail sign-in to existing accounts. Owner access is permanent; customers retain subscription or metered-trial requirements. Commercial 1.2.2 makes an explicit Remote On enable all 31 permissions and Full Auto, automatically renews the bounded execution lease, and stops the local engine and in-flight requests on Off. Permission changes save automatically. Approved roots and subscription/trial checks remain enforced. Commercial 1.2.1 added Read Only, Ask and Full Auto on Home. Exactly one local mode is active; restart/logout restores Read Only. Full Auto skips per-call prompts after local opt-in, while tool permissions, approved roots, execution windows and server checks remain enforced. Shutdown still asks separately. In Commercial Windows 1.2.2 the process execution lease is managed automatically while Remote is On. Install the matching product, connect the device and refresh the MCP connector's tool list.
+All 31 tools are supported in Commercial. Remote On prepares Full Auto and renews the execution lease; Off stops the local engine and in-flight work. Restart requires explicit local activation. Approved folders, tool permissions, authentication and subscription/trial requirements remain enforced. Owner access is granted by a server role. Personal and Commercial keep independent installations and settings.
 
-Commercial MCP endpoint: `https://ykurdo-api.sdigital.app/mcp`. Trial: 5,000 tool calls over 30 days, once per device. Plans: EUR 19.99/month or EUR 210/year; final price and tax appear in Stripe Checkout.
-
-Installers preserve separate product identities and settings. They are currently not Authenticode-signed; compare their SHA-256 against the release checksums. This repository distributes binaries and documentation; the development repository remains private.
+Installers are currently not Authenticode-signed; verify the release SHA-256. Superseded Windows Commercial downloads are removed after the new release is verified. Current Personal and Linux downloads remain available. This repository distributes public binaries and documentation; development sources remain private.
