@@ -5,7 +5,7 @@
 | محصول | دانلود نصب‌کننده |
 |---|---|
 | **Personal — شخصی غیرتجاری** | [دانلود Personal 1.2.0](https://github.com/sadollahkarami1-droid/YKurdo-Remote-Download/releases/download/v1.2.0-91b33d881736/YKurdo-Remote-Personal-Setup-x64-1.2.0-91b33d881736.exe) |
-| **Commercial — تجاری** | [دانلود Commercial 1.2.4](https://github.com/sadollahkarami1-droid/YKurdo-Remote-Download/releases/download/v1.2.4-f0bbc143ffa7/YKurdo-Remote-Commercial-Setup-x64-1.2.4-f0bbc143ffa7.exe) |
+| **Commercial — تجاری** | [دانلود Commercial 1.2.4](https://github.com/sadollahkarami1-droid/YKurdo-Remote-Download/releases/download/v1.2.4-2f9f7fa9e46a/YKurdo-Remote-Commercial-Setup-x64-1.2.4-2f9f7fa9e46a.exe) |
 
 [توضیحات نسخه، SHA-256 و همه دانلودها](https://github.com/sadollahkarami1-droid/YKurdo-Remote-Download/releases/latest)
 
