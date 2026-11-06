@@ -2,16 +2,19 @@
 
 <img src="assets/ykurdo-remote-logo.png" alt="YKurdo Remote" width="240">
 
-**آخرین نسخهٔ پایدار تجاری ویندوز: 1.2.5 — نسخهٔ شخصی ویندوز: 1.2.0**
+**آخرین نسخهٔ پایدار تجاری ویندوز: 1.2.6 — نسخهٔ شخصی ویندوز: 1.2.0**
 
 | محصول | دانلود نصب‌کننده Windows x64 |
 |---|---|
-| **Commercial — تجاری** | [دانلود Commercial 1.2.5](https://github.com/sadollahkarami1-droid/YKurdo-Remote-Download/releases/download/v1.2.5-be43db3aa0ae/YKurdo-Remote-Commercial-Setup-x64-1.2.5-be43db3aa0ae.exe) |
+| **Commercial — تجاری** | [دانلود Commercial 1.2.6](https://github.com/sadollahkarami1-droid/YKurdo-Remote-Download/releases/download/v1.2.6-43c0ba08267b/YKurdo-Remote-Commercial-Setup-x64-1.2.6-43c0ba08267b.exe) |
 | **Personal — شخصی غیرتجاری** | [دانلود Personal 1.2.0](https://github.com/sadollahkarami1-droid/YKurdo-Remote-Download/releases/download/v1.2.0-91b33d881736/YKurdo-Remote-Personal-Setup-x64-1.2.0-91b33d881736.exe) |
 
 [توضیحات آخرین نسخه و SHA-256](https://github.com/sadollahkarami1-droid/YKurdo-Remote-Download/releases/latest)
 
-## Commercial 1.2.5
+## Commercial 1.2.6
+
+- هشدار صوتی قطع اتصال تا اتصال موفق، بستن هشدار یا بستن برنامه تکرار می‌شود.
+- راهنمای هفت‌زبانه با جهت درست متن و جلوگیری از تداخل ترجمهٔ خودکار مرورگر؛ توضیحات مجوز اجرا و حالت‌های دسترسی به‌روز شد.
 
 - انتخاب زبان پیش از نصب: فارسی، انگلیسی، عربی، آلمانی، ایتالیایی، فرانسوی و اسپانیایی؛ ورود و خوشامد به زبان انتخاب‌شده.
 - تم شب در نصب تازه؛ حفظ زبان و ظاهر قبلی هنگام ارتقای بی‌صدا.
@@ -52,7 +55,9 @@ Get-FileHash .\YKurdo-Remote-*-Setup-x64-*.exe -Algorithm SHA256
 
 ## English
 
-Latest stable **Windows Commercial 1.2.5**, **Windows Personal 1.2.0**; Linux 1.3.0-beta.1 remains a separate preview. Setup offers seven languages. Welcome follows the app language; fresh installs default to Night. Improved RTL/LTR text and switch placement, larger typography and AI-services panel, brighter moon and new owner-provided logo. The large-response crash fix is retained.
+Disconnect audio now loops until reconnection, dismissal or closing the app. The guide uses correct RTL/LTR direction and opts out of browser auto-translation.
+
+Latest stable **Windows Commercial 1.2.6**, **Windows Personal 1.2.0**; Linux 1.3.0-beta.1 remains a separate preview. Setup offers seven languages. Welcome follows the app language; fresh installs default to Night. Improved RTL/LTR text and switch placement, larger typography and AI-services panel, brighter moon and new owner-provided logo. The large-response crash fix is retained.
 
 All 31 tools are supported in Commercial. Remote On prepares Full Auto and renews the execution lease; Off stops the local engine and in-flight work. Restart requires explicit local activation. Approved folders, tool permissions, authentication and subscription/trial requirements remain enforced. Owner access is granted by a server role. Personal and Commercial keep independent installations and settings.
 
