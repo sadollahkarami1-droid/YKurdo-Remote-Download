@@ -1,11 +1,11 @@
 # YKurdo Remote — دانلود / Download
 
-نسخه‌های پایدار برای Windows x64؛ نسخه‌های آزمایشی Linux نیز در ادامه آمده‌اند. **نسخه تجاری: 1.2.2 — نسخه شخصی: 1.2.0**
+نسخه‌های پایدار برای Windows x64؛ نسخه‌های آزمایشی Linux نیز در ادامه آمده‌اند. **نسخه تجاری: 1.2.3 — نسخه شخصی: 1.2.0**
 
 | محصول | دانلود نصب‌کننده |
 |---|---|
 | **Personal — شخصی غیرتجاری** | [دانلود Personal 1.2.0](https://github.com/sadollahkarami1-droid/YKurdo-Remote-Download/releases/download/v1.2.0-91b33d881736/YKurdo-Remote-Personal-Setup-x64-1.2.0-91b33d881736.exe) |
-| **Commercial — تجاری** | [دانلود Commercial 1.2.2](https://github.com/sadollahkarami1-droid/YKurdo-Remote-Download/releases/download/v1.2.2-ee1ebada7a2c/YKurdo-Remote-Commercial-Setup-x64-1.2.2-ee1ebada7a2c.exe) |
+| **Commercial — تجاری** | [دانلود Commercial 1.2.3](https://github.com/sadollahkarami1-droid/YKurdo-Remote-Download/releases/download/v1.2.3-86774c8ba612/YKurdo-Remote-Commercial-Setup-x64-1.2.3-86774c8ba612.exe) |
 
 [توضیحات نسخه، SHA-256 و همه دانلودها](https://github.com/sadollahkarami1-droid/YKurdo-Remote-Download/releases/latest)
 
@@ -23,6 +23,10 @@
 نسخه تجاری Linux به همان سرویس و ۳۱ ابزار اصلی متصل است و سه حالت دسترسی، پوشه‌های مستقل و بازه اجرای ۱۵ دقیقه‌ای دارد. نسخه شخصی اتصال محلی MCP و تنظیمات مستقل دارد. آزمون‌ها روی Ubuntu در WSL2 انجام شده‌اند؛ ورود Google با حساب واقعی و اجرای طولانی روی دسکتاپ‌های مختلف هنوز تأیید نشده است. PDF از Markdown به Chrome/Chromium نصب‌شده نیاز دارد. **این نسخه آزمایشی است و جایگزین نسخه پایدار ویندوز نشده است.**
 
 macOS فاز بعدی است؛ هنوز نصب‌کننده مک منتشر نشده است.
+
+## تغییرات Commercial 1.2.3 — Windows
+
+ترجمه‌های شش زبان فعال همگام شدند: هر زبان ۴۱۸ عبارت دارد. متن‌های حالت دسترسی، مجوز اجرا، Owner، ورود Google و اتصال تکمیل شدند. پنجره تأیید درخواست نیز ترجمه می‌شود و تغییر چندباره زبان برای متن‌های پویا اصلاح شده است.
 
 ## تغییرات Commercial 1.2.2 — Windows
 
