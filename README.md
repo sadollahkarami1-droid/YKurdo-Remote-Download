@@ -1,11 +1,11 @@
 # YKurdo Remote — دانلود / Download
 
-نسخه‌های پایدار برای Windows x64؛ نسخه‌های آزمایشی Linux نیز در ادامه آمده‌اند. **نسخه تجاری: 1.2.1 — نسخه شخصی: 1.2.0**
+نسخه‌های پایدار برای Windows x64؛ نسخه‌های آزمایشی Linux نیز در ادامه آمده‌اند. **نسخه تجاری: 1.2.2 — نسخه شخصی: 1.2.0**
 
 | محصول | دانلود نصب‌کننده |
 |---|---|
 | **Personal — شخصی غیرتجاری** | [دانلود Personal 1.2.0](https://github.com/sadollahkarami1-droid/YKurdo-Remote-Download/releases/download/v1.2.0-91b33d881736/YKurdo-Remote-Personal-Setup-x64-1.2.0-91b33d881736.exe) |
-| **Commercial — تجاری** | [دانلود Commercial 1.2.1](https://github.com/sadollahkarami1-droid/YKurdo-Remote-Download/releases/download/v1.2.1-89672b94765a/YKurdo-Remote-Commercial-Setup-x64-1.2.1-89672b94765a.exe) |
+| **Commercial — تجاری** | [دانلود Commercial 1.2.2](https://github.com/sadollahkarami1-droid/YKurdo-Remote-Download/releases/download/v1.2.2-ee1ebada7a2c/YKurdo-Remote-Commercial-Setup-x64-1.2.2-ee1ebada7a2c.exe) |
 
 [توضیحات نسخه، SHA-256 و همه دانلودها](https://github.com/sadollahkarami1-droid/YKurdo-Remote-Download/releases/latest)
 
@@ -23,6 +23,14 @@
 نسخه تجاری Linux به همان سرویس و ۳۱ ابزار اصلی متصل است و سه حالت دسترسی، پوشه‌های مستقل و بازه اجرای ۱۵ دقیقه‌ای دارد. نسخه شخصی اتصال محلی MCP و تنظیمات مستقل دارد. آزمون‌ها روی Ubuntu در WSL2 انجام شده‌اند؛ ورود Google با حساب واقعی و اجرای طولانی روی دسکتاپ‌های مختلف هنوز تأیید نشده است. PDF از Markdown به Chrome/Chromium نصب‌شده نیاز دارد. **این نسخه آزمایشی است و جایگزین نسخه پایدار ویندوز نشده است.**
 
 macOS فاز بعدی است؛ هنوز نصب‌کننده مک منتشر نشده است.
+
+## تغییرات Commercial 1.2.2 — Windows
+
+- دکمه روشن‌کردن Remote هر ۳۱ ابزار و Full Auto را آماده می‌کند؛ مجوز اجرای فرمان خودکار تمدید می‌شود و دکمه جداگانه ۱۵ دقیقه‌ای لازم نیست.
+- خاموش‌کردن Remote موتور محلی و درخواست‌های جاری را متوقف و دستگاه را آفلاین می‌کند.
+- تغییر مجوز ابزارها خودکار ذخیره می‌شود و حالت دسترسی هنگام اتصال هم قابل تغییر است.
+- پوشه‌های مجاز، حساب تأییدشده و الزام اشتراک یا trial مشتریان برقرارند. نصب، تنظیمات و ورود ذخیره‌شده را حفظ می‌کند.
+- شروع خودکار برنامه همچنان حالت پیش‌فرض فقط‌خواندنی را حفظ می‌کند؛ فعال‌سازی کامل با دکمه اصلی Remote انجام می‌شود.
 
 ## تغییرات Commercial 1.2.1
 
@@ -43,7 +51,7 @@ macOS فاز بعدی است؛ هنوز نصب‌کننده مک منتشر نش
 
 ## کنترل دسترسی
 
-هر ابزار مجوز مستقل دارد. اجرای ابزار روی دستگاه تابع حالت انتخاب‌شده در خود برنامه است و ابزارهای پردازش به پنجره اجرای باز نیاز دارند. مسیرها را در خود برنامه انتخاب و مدیریت کنید. درخواست نامعتبر، دستگاه آفلاین یا مجوز لغوشده اجازه اجرا نمی‌گیرد.
+هر ابزار مجوز مستقل دارد. در Commercial ویندوز 1.2.2، زدن دکمه روشن‌کردن Remote هر ۳۱ ابزار و Full Auto را فعال و مجوز زمان‌دار اجرا را خودکار تمدید می‌کند. خاموش‌کردن Remote اجرای جاری و موتور محلی را متوقف می‌کند. مجوزها خودکار ذخیره می‌شوند و همچنان می‌توان ابزارهای خاص را خاموش کرد. پوشه‌های مجاز و احراز هویت برقرار می‌مانند. مسیرها را در خود برنامه انتخاب و مدیریت کنید. درخواست نامعتبر، دستگاه آفلاین یا مجوز لغوشده اجازه اجرا نمی‌گیرد.
 
 در Commercial، مالک اصلی با نقش سروری Owner دسترسی دائمی دارد. مشتریان به اشتراک معتبر یا trial فعال نیاز دارند.
 
@@ -54,7 +62,7 @@ macOS فاز بعدی است؛ هنوز نصب‌کننده مک منتشر نش
 3. پوشه‌ها و مجوزهای موردنیاز را در برنامه انتخاب و دستگاه را متصل کنید.
 4. در کلاینت پشتیبانی‌شده، کانکتور MCP را با `https://ykurdo-api.sdigital.app/mcp` اضافه کنید و ورود را تکمیل کنید. پس از ارتقا، فهرست ابزارهای کانکتور را تازه کنید.
 
-برای مجموعه کامل ۳۱ ابزار، برنامه Commercial را به 1.2.1 ارتقا دهید.
+برای کنترل خودکار اجرا با کلید Remote، برنامه Commercial ویندوز را به 1.2.2 ارتقا دهید.
 
 ## اشتراک Commercial
 
@@ -72,7 +80,7 @@ Get-FileHash .\YKurdo-Remote-*-Setup-x64-*.exe -Algorithm SHA256
 
 Two independent Windows x64 products: **Personal (noncommercial)** and **Commercial**. Version 1.2.0 brings all 31 Personal tools to the Commercial endpoint and adds approved-folder/whole-drive switches and a 15-minute execution window to Personal.
 
-Commercial supports verified Gmail sign-in to existing accounts. Owner access is permanent; customers retain subscription or metered-trial requirements. Commercial 1.2.1 adds Read Only, Ask and Full Auto on Home. Exactly one local mode is active; restart/logout restores Read Only. Full Auto skips per-call prompts after local opt-in, while tool permissions, approved roots, execution windows and server checks remain enforced. Shutdown still asks separately. Process tools also need an execution window. Install the matching product, connect the device and refresh the MCP connector's tool list.
+Commercial supports verified Gmail sign-in to existing accounts. Owner access is permanent; customers retain subscription or metered-trial requirements. Commercial 1.2.2 makes an explicit Remote On enable all 31 permissions and Full Auto, automatically renews the bounded execution lease, and stops the local engine and in-flight requests on Off. Permission changes save automatically. Approved roots and subscription/trial checks remain enforced. Commercial 1.2.1 added Read Only, Ask and Full Auto on Home. Exactly one local mode is active; restart/logout restores Read Only. Full Auto skips per-call prompts after local opt-in, while tool permissions, approved roots, execution windows and server checks remain enforced. Shutdown still asks separately. In Commercial Windows 1.2.2 the process execution lease is managed automatically while Remote is On. Install the matching product, connect the device and refresh the MCP connector's tool list.
 
 Commercial MCP endpoint: `https://ykurdo-api.sdigital.app/mcp`. Trial: 5,000 tool calls over 30 days, once per device. Plans: EUR 19.99/month or EUR 210/year; final price and tax appear in Stripe Checkout.
 
