@@ -8,10 +8,10 @@
 
 ```bash
 # نسخه شخصی:
-sudo apt install ./ykurdo-remote-personal_1.3.0~beta.1-*_amd64.deb
+sudo apt install ./ykurdo-remote-personal_*_amd64.deb
 ykurdo-personal ui --open
 # یا نسخه تجاری:
-sudo apt install ./ykurdo-remote-commercial_1.3.0~beta.1-*_amd64.deb
+sudo apt install ./ykurdo-remote-commercial_*_amd64.deb
 ykurdo-commercial ui --open
 ```
 

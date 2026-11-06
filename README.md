@@ -15,8 +15,8 @@
 
 | محصول Linux | نصب Ubuntu / Debian |
 |---|---|
-| Personal — شخصی غیرتجاری | [دانلود بسته شخصی `.deb`](https://github.com/sadollahkarami1-droid/YKurdo-Remote-Download/releases/download/linux-v1.3.0-beta.1-1f144b0fe2aa/ykurdo-remote-personal_1.3.0~beta.1-1f144b0fe2aa_amd64.deb) |
-| Commercial — تجاری | [دانلود بسته تجاری `.deb`](https://github.com/sadollahkarami1-droid/YKurdo-Remote-Download/releases/download/linux-v1.3.0-beta.1-1f144b0fe2aa/ykurdo-remote-commercial_1.3.0~beta.1-1f144b0fe2aa_amd64.deb) |
+| Personal — شخصی غیرتجاری | [دانلود بسته شخصی `.deb`](https://github.com/sadollahkarami1-droid/YKurdo-Remote-Download/releases/download/linux-v1.3.0-beta.1-1f144b0fe2aa/ykurdo-remote-personal_1.3.0.beta.1-1f144b0fe2aa_amd64.deb) |
+| Commercial — تجاری | [دانلود بسته تجاری `.deb`](https://github.com/sadollahkarami1-droid/YKurdo-Remote-Download/releases/download/linux-v1.3.0-beta.1-1f144b0fe2aa/ykurdo-remote-commercial_1.3.0.beta.1-1f144b0fe2aa_amd64.deb) |
 
 [همه فایل‌های Linux، آرشیو نصب بدون دسترسی مدیر و SHA-256](https://github.com/sadollahkarami1-droid/YKurdo-Remote-Download/releases/tag/linux-v1.3.0-beta.1-1f144b0fe2aa) · [راهنمای نصب و محدودیت‌ها](LINUX-INSTALL-FA.md)
 
