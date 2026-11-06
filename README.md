@@ -5,7 +5,7 @@
 | محصول | دانلود نصب‌کننده |
 |---|---|
 | **Personal — شخصی غیرتجاری** | [دانلود Personal 1.2.0](https://github.com/sadollahkarami1-droid/YKurdo-Remote-Download/releases/download/v1.2.0-91b33d881736/YKurdo-Remote-Personal-Setup-x64-1.2.0-91b33d881736.exe) |
-| **Commercial — تجاری** | [دانلود Commercial 1.2.4](https://github.com/sadollahkarami1-droid/YKurdo-Remote-Download/releases/download/v1.2.4-2f9f7fa9e46a/YKurdo-Remote-Commercial-Setup-x64-1.2.4-2f9f7fa9e46a.exe) |
+| **Commercial — تجاری** | [دانلود Commercial 1.2.4](https://github.com/sadollahkarami1-droid/YKurdo-Remote-Download/releases/download/v1.2.4-bbdfbf75231f/YKurdo-Remote-Commercial-Setup-x64-1.2.4-bbdfbf75231f.exe) |
 
 [توضیحات نسخه، SHA-256 و همه دانلودها](https://github.com/sadollahkarami1-droid/YKurdo-Remote-Download/releases/latest)
 
@@ -26,7 +26,7 @@ macOS فاز بعدی است؛ هنوز نصب‌کننده مک منتشر نش
 
 ## تغییرات Commercial 1.2.4 — Windows
 
-رفع کرش و قطع اتصال هنگام دریافت پاسخ بزرگِ تأیید نتیجه ابزار. پاسخ‌های مدیریتی محدود خوانده می‌شوند و خطای داده نامعتبر کل برنامه را نمی‌بندد. نصب، حساب و تنظیمات قبلی را حفظ می‌کند.
+رفع کرش و قطع اتصال هنگام دریافت پاسخ بزرگِ تأیید نتیجه ابزار. ماه تپنده، نورافشانی ده‌ثانیه‌ای، خوشامد هفت‌زبانه و هشدار تصویری/صوتی قطع اتصال اضافه شد. نصب، حساب و تنظیمات قبلی را حفظ می‌کند و موتور Node یکسان را جایگزین نمی‌کند.
 
 ## تغییرات Commercial 1.2.3 — Windows
 
