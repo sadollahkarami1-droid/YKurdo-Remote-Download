@@ -49,3 +49,7 @@ Install the matching updated client, configure and connect the device, choose ap
 In Personal, the extensions panel includes folder/whole-drive switches and a 15-minute execution window. Disabling a folder takes effect in the shared engine without restart. Invalid or empty policy blocks access. Installers are currently not Authenticode-signed; verify downloads against their release SHA-256 files.
 
 Support: sadollahkarami1@gmail.com
+
+## Linux beta
+
+دو بسته مستقل Linux Personal و Commercial برای Ubuntu 24.04 x64 آماده است؛ [راهنمای Linux](LINUX-INSTALL-FA.md) و [توضیحات انتشار آزمایشی](LINUX-1.3.0-beta.1.md) را بخوانید. macOS هنوز منتشر نشده است.
