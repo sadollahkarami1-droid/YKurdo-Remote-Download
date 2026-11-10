@@ -46,7 +46,7 @@ Every tool declares `readOnlyHint` or `destructiveHint` and a title.
 | Search | `start_search`, `get_more_search_results`, `list_searches`, `stop_search` | — |
 | Processes | `read_process_output`, `list_sessions`, `list_processes` | `start_process`, `interact_with_process`, `force_terminate`, `kill_process` |
 | Settings | `get_config` | `set_config_value` |
-| Usage | `workspace_summary`, `get_usage_stats`, `get_recent_tool_calls`, `give_feedback_to_desktop_commander` | — |
+| Usage | `workspace_summary`, `get_usage_stats`, `get_recent_tool_calls`, `send_feedback` | — |
 | Account and devices | `list_devices`, `who_am_i`, `list_remote_tool_calls`, `get_tool_result` | `shutdown` |
 
 ## Data handling
