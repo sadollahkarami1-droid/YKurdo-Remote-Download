@@ -50,6 +50,18 @@ In Personal, the extensions panel includes folder/whole-drive switches and a 15-
 
 Support: sadollahkarami1@gmail.com
 
+## Ø§ØªØµØ§Ù„ Ø¨Ù‡ Claude Ùˆ ChatGPT / Connect to Claude and ChatGPT
+
+Ø¢Ø¯Ø±Ø³ Ú©Ø§Ù†Ú©ØªÙˆØ± Ø¨Ø±Ø§ÛŒ Ù‡Ø± Ø¯Ùˆ: `https://ykurdo-api.sdigital.app/mcp` (Ø§Ø­Ø±Ø§Ø² Ù‡ÙˆÛŒØª OAuthØ› Ø¨Ø§ Ù‡Ù…Ø§Ù† Ø­Ø³Ø§Ø¨ YKurdo ÙˆØ§Ø±Ø¯ Ø´ÙˆÛŒØ¯).
+
+**Claude:** Settings â†’ Connectors â†’ Add custom connector â†’ Ø¢Ø¯Ø±Ø³ Ø¨Ø§Ù„Ø§ Ø±Ø§ Ø¨Ú†Ø³Ø¨Ø§Ù†ÛŒØ¯ â†’ Ø¨Ø§ Ø­Ø³Ø§Ø¨ YKurdo ÙˆØ§Ø±Ø¯ Ø´ÙˆÛŒØ¯.
+
+**ChatGPT:** Settings â†’ Connectors â†’ Advanced â†’ Developer mode Ø±Ø§ Ø±ÙˆØ´Ù† Ú©Ù†ÛŒØ¯ â†’ Create â†’ Ù†Ø§Ù… `YKurdo Remote`ØŒ Ø¢Ø¯Ø±Ø³ Ø¨Ø§Ù„Ø§ØŒ Authentication: OAuth â†’ Ø¨Ø§ Ø­Ø³Ø§Ø¨ YKurdo ÙˆØ§Ø±Ø¯ Ø´ÙˆÛŒØ¯. Ø³Ù¾Ø³ Ø¯Ø± ÛŒÚ© Ú†ØªØŒ Ú©Ø§Ù†Ú©ØªÙˆØ± Ø±Ø§ ÙØ¹Ø§Ù„ Ú©Ù†ÛŒØ¯.
+
+Ø´Ø±Ø§ÛŒØ·: Ø¨Ø±Ù†Ø§Ù…Ù‡ Ø±ÙˆÛŒ ÙˆÛŒÙ†Ø¯ÙˆØ² Ù†ØµØ¨ Ùˆ ÙˆØ§Ø±Ø¯ Ø­Ø³Ø§Ø¨ Ø¨Ø§Ø´Ø¯ØŒ Ø­Ø¯Ø§Ù‚Ù„ ÛŒÚ© Ù¾ÙˆØ´Ù‡Ù” Ù…Ø¬Ø§Ø² Ø§Ù†ØªØ®Ø§Ø¨ Ø´Ø¯Ù‡ Ùˆ Remote Ø±ÙˆØ´Ù† Ø¨Ø§Ø´Ø¯. Ø­Ø§Ù„Øª Ù¾ÛŒØ´â€ŒÙØ±Ø¶ ÙÙ‚Ø·â€ŒØ®ÙˆØ§Ù†Ø¯Ù†ÛŒ Ø§Ø³Øª. Ø¨Ø±Ø§ÛŒ Ù‚Ø·Ø¹ Ø¯Ø³ØªØ±Ø³ÛŒØŒ Remote Ø±Ø§ Ø¯Ø± Ø¨Ø±Ù†Ø§Ù…Ù‡ Ø®Ø§Ù…ÙˆØ´ Ú©Ù†ÛŒØ¯ ÛŒØ§ Ú©Ø§Ù†Ú©ØªÙˆØ± Ø±Ø§ Ø­Ø°Ù Ú©Ù†ÛŒØ¯.
+
+**English:** In Claude: Settings > Connectors > Add custom connector. In ChatGPT: Settings > Connectors > Advanced > Developer mode > Create, Authentication = OAuth. Use `https://ykurdo-api.sdigital.app/mcp` and sign in with your YKurdo account. The Windows app must be signed in with Remote on and at least one approved folder; the default mode is Read Only.
+
 ## Linux beta
 
 دو بسته مستقل Linux Personal و Commercial برای Ubuntu 24.04 x64 آماده است؛ [راهنمای Linux](LINUX-INSTALL-FA.md) و [توضیحات انتشار آزمایشی](LINUX-1.3.0-beta.1.md) را بخوانید. macOS هنوز منتشر نشده است.
