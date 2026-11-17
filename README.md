@@ -2,14 +2,22 @@
 
 <img src="assets/ykurdo-remote-logo.png" alt="YKurdo Remote" width="240">
 
-**آخرین نسخهٔ پایدار تجاری ویندوز: 1.2.6 — نسخهٔ شخصی ویندوز: 1.2.0**
+**آخرین نسخهٔ پایدار تجاری ویندوز: 1.3.12 — نسخهٔ شخصی ویندوز: 1.2.0**
 
 | محصول | دانلود نصب‌کننده Windows x64 |
 |---|---|
-| **Commercial — تجاری** | [دانلود Commercial 1.2.6](https://github.com/sadollahkarami1-droid/YKurdo-Remote-Download/releases/download/v1.2.6-43c0ba08267b/YKurdo-Remote-Commercial-Setup-x64-1.2.6-43c0ba08267b.exe) |
+| **Commercial — تجاری** | [دانلود Commercial 1.3.12](https://github.com/sadollahkarami1-droid/YKurdo-Remote-Download/releases/download/v1.3.12-986aa4447d39/YKurdo-Remote-Commercial-Setup-x64-1.3.12-986aa4447d39.exe) |
 | **Personal — شخصی غیرتجاری** | [دانلود Personal 1.2.0](https://github.com/sadollahkarami1-droid/YKurdo-Remote-Download/releases/download/v1.2.0-91b33d881736/YKurdo-Remote-Personal-Setup-x64-1.2.0-91b33d881736.exe) |
 
 [توضیحات آخرین نسخه و SHA-256](https://github.com/sadollahkarami1-droid/YKurdo-Remote-Download/releases/latest)
+
+## Commercial 1.3.12
+
+- ویجت ساعت دیجیتال (ساعت:دقیقه:ثانیه) با تاریخ شمسی و شمارندهٔ زندهٔ کردیت YKurdo (امروز، این ماه، کل)؛ توکن به‌صورت تخمینی.
+- بخش اسکیل‌ها: ۶۹۰ اسکیل در ۱۲ دسته با کلیدهای روشن/خاموش سبز؛ یک کلید برای دسترسی ChatGPT / Claude / Gemini؛ ذخیرهٔ خودکار تنظیمات روی سرور.
+- پنل اتصال Gemini (Antigravity و Gemini CLI).
+- کاشی واحد «حساب و صورتحساب»؛ فهرست مجوز ابزارها با نوشتهٔ بزرگ‌تر.
+- SHA-256: `E6A8E466B4ECEC057AFFAF4D17F9707143F23093A920C1FE72E0701FA93D3894`
 
 ## Commercial 1.2.6
 
