@@ -62,6 +62,6 @@ Support: sadollahkarami1@gmail.com
 
 **English:** In Claude: Settings > Connectors > Add custom connector. In ChatGPT: Settings > Connectors > Advanced > Developer mode > Create, Authentication = OAuth. Use `https://ykurdo-api.sdigital.app/mcp` and sign in with your YKurdo account. The Windows app must be signed in with Remote on and at least one approved folder; the default mode is Read Only.
 
-## Linux beta
+## Linux 1.3.13
 
-دو بسته مستقل Linux Personal و Commercial برای Ubuntu 24.04 x64 آماده است؛ [راهنمای Linux](LINUX-INSTALL-FA.md) و [توضیحات انتشار آزمایشی](LINUX-1.3.0-beta.1.md) را بخوانید. macOS هنوز منتشر نشده است.
+دو بسته مستقل Linux Personal و Commercial برای Ubuntu 24.04 x64 آماده است؛ [راهنمای Linux](LINUX-INSTALL-FA.md) را بخوانید. macOS هنوز منتشر نشده است.
